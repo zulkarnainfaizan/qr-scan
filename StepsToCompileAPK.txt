@@ -1,0 +1,17 @@
+
+1."Remove www folder"
+rm -rf www
+2."Remove android folder"
+rm -rf android
+3."Production build "
+ionic build --prod
+4."Add android platform"
+npx cap add android
+5."Jetify to migrate to AndroidX"
+npx jetify
+6."capacitor Sync
+npx cap sync
+7."Android open"
+npx cap open android
+8."APK generation"
+genrate signed Apk in android studio...build>Generate signed bundle/apk
