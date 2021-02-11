@@ -14,4 +14,4 @@ npx cap sync
 7."Android open"
 npx cap open android
 8."APK generation"
-genrate signed Apk in android studio...build>Generate signed bundle/apk
+generate signed Apk in android studio...build>Generate signed bundle/apk etc
